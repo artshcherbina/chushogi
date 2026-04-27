@@ -67,3 +67,7 @@ for j in range(N):
 c.showPage()
 c.save()
 print(f"Done: {OUT}  (cell={CELL/mm:.1f} mm)")
+
+import subprocess
+subprocess.run(["pdftoppm", "-r", "300", "-png", OUT, "pieces/board"], check=True)
+print("PNG: pieces/board-1.png")

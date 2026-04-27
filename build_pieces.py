@@ -240,3 +240,7 @@ piece_h_mm = cell_mm * (scale_to_cell * ch / PX)
 print(f"Ячейка разрезки:   {cell_mm:.0f} × {cell_mm:.0f} мм  (ровно 2×2 см ✓)")
 print(f"Фигура в ячейке:   {piece_w_mm:.1f} × {piece_h_mm:.1f} мм")
 print(f"Поля:              {OFFSET_X/mm:.1f} мм слева/справа")
+
+import subprocess
+subprocess.run(["pdftoppm", "-r", "400", "-png", OUT, "pieces/pieces"], check=True)
+print("PNG: pieces/pieces-1.png, pieces/pieces-2.png")

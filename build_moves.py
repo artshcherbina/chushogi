@@ -575,3 +575,7 @@ for i, slot in enumerate(SLOTS):
 c.showPage()
 c.save()
 print(f"\nDone: {OUT}")
+
+import subprocess
+subprocess.run(["pdftoppm", "-r", "400", "-png", OUT, f"{LANG}/moves"], check=True)
+print(f"PNG: {LANG}/moves-1.png ...")
