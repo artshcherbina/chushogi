@@ -15,12 +15,6 @@ played on a 12×12 board, ancestor of modern Shogi.
 
 ---
 
-## Board
-
-![Board](pieces/board-1.png)
-
----
-
 ## Pieces
 
 <table><tr>
@@ -115,6 +109,12 @@ python3 build_moves.py ja            # Japanese → ja/
 python3 build_moves.py ru            # Russian → ru/
 python3 build_rules.py               # rules (DOCX) → ru/
 ```
+
+---
+
+## Board
+
+<img src="pieces/board-1.png" width="400"/>
 
 ---
 
