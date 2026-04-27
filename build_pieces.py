@@ -43,7 +43,7 @@ PIECES = [
     ("Слон",         "0_BISHOP",         "0_HORSEPROMOTED",     2),
     ("Ладья",        "0_ROOK",           "0_DRAGONPROMOTED",    2),
     ("Дракон-конь",  "0_HORSE",          "0_FALCON",            2),
-    ("Дракон-кор.",  "0_DRAGON",         "0_DRAGONPROMOTED",    2),
+    ("Дракон-кор.",  "0_DRAGON",         "0_EAGLE",             2),
     ("Своб.кор.",    "0_QUEEN",          None,                  1),
     ("Лев",          "0_LION",           None,                  1),
     ("Король 王",    "0_KING",           None,                  1),
