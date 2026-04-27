@@ -40,13 +40,13 @@ c.setFillColor(C_WOOD)
 c.rect(BX, BY, BOARD_W, BOARD_H, fill=1, stroke=0)
 
 # ── Grid ──────────────────────────────────────────────────────────────────────
-c.setStrokeColor(C_LINE); c.setLineWidth(1.2)
+c.setStrokeColor(C_LINE); c.setLineWidth(2.5)
 for i in range(N + 1):
     c.line(BX + i*CELL, BY, BX + i*CELL, BY + BOARD_H)
     c.line(BX, BY + i*CELL, BX + BOARD_W, BY + i*CELL)
 
 # ── Border ────────────────────────────────────────────────────────────────────
-c.setStrokeColor(C_BORDER); c.setLineWidth(4.0)
+c.setStrokeColor(C_BORDER); c.setLineWidth(7.0)
 c.rect(BX, BY, BOARD_W, BOARD_H, fill=0, stroke=1)
 
 # ── Column numbers (1–12, left to right) ──────────────────────────────────────
