@@ -47,7 +47,8 @@ Other languages: [Deutsch](de/) · [Français](fr/) · [Español](es/) · [日�
 
 ## How to Assemble
 
-1. Print [chu_shogi_board.pdf](pieces/chu_shogi_board.pdf) and [chu_shogi_pieces.pdf](pieces/chu_shogi_pieces.pdf) — 2 pages each
+1. Print [chu_shogi_board.pdf](pieces/chu_shogi_board.pdf) on **A3**
+2. Print [chu_shogi_pieces.pdf](pieces/chu_shogi_pieces.pdf) on **A4** — 2 pages
 2. Hold page 2 (back) face-down over page 1 and align against a light source
 3. Glue together and press flat until dry
 4. Cut along dotted lines — each cell is exactly **2×2 cm**
