@@ -25,6 +25,7 @@ played on a 12×12 board, ancestor of modern Shogi.
 <td align="center">Back — promoted pieces (mirrored)</td>
 </tr></table>
 
+
 ---
 
 ## Move Diagrams
@@ -38,9 +39,15 @@ Other languages: [Deutsch](de/) · [Français](fr/) · [Español](es/) · [日�
 
 ---
 
+## Board
+
+<img src="pieces/board-1.png" width="400"/>
+
+---
+
 ## How to Assemble
 
-1. Print `pieces/chu_shogi_pieces.pdf` — 2 pages
+1. Print [chu_shogi_board.pdf](pieces/chu_shogi_board.pdf) and [chu_shogi_pieces.pdf](pieces/chu_shogi_pieces.pdf) — 2 pages each
 2. Hold page 2 (back) face-down over page 1 and align against a light source
 3. Glue together and press flat until dry
 4. Cut along dotted lines — each cell is exactly **2×2 cm**
@@ -109,12 +116,6 @@ python3 build_moves.py ja            # Japanese → ja/
 python3 build_moves.py ru            # Russian → ru/
 python3 build_rules.py               # rules (DOCX) → ru/
 ```
-
----
-
-## Board
-
-<img src="pieces/board-1.png" width="400"/>
 
 ---
 
