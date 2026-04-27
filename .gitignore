@@ -1,0 +1,8 @@
+lishogi/
+.gstack/
+__pycache__/
+*.pyc
+preview_pieces*.ppm
+.claude/
+preview_pieces*.ppm
+.claude-session
